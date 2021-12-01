@@ -8,6 +8,7 @@
             inputs)
   (print (concatenate 'string  "Part 1: " (write-to-string current))))
 
+;; part 2
 (let ((inputs (map 'list #'parse-integer (uiop:read-file-lines "day1.input")))
       (current 0)
       (previous nil))
