@@ -1,5 +1,3 @@
-require 'prettyprint'
-
 current = nil
 previous = nil
 increases = 0
