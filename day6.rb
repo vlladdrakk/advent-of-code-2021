@@ -61,4 +61,4 @@ def doodoo init, n
   return fesh.reduce(&:+)
 end
 
-puts "Part2: #{doodoo(current_fesh, 80)}"
+puts "Part2: #{doodoo(current_fesh, 256)}"
